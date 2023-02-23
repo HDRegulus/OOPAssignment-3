@@ -1,5 +1,6 @@
 import java.util.*;
 
+/*Method for part a*/
 public class HW3a {
     public static void main(String[] args) {
         //make a new scanner to look for user input

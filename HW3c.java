@@ -1,5 +1,6 @@
 import java.util.*;
 
+/*Method for part c*/
 public class HW3c {
     public static void main(String[] args) {
         //Make a new Scanner to take user answers to questions
