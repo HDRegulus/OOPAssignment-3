@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.Arrays;
 
 public class HW3b {
     public static void main(String[] args) {
@@ -18,6 +19,9 @@ public class HW3b {
             userNames[arrayPosition] = scan.nextLine();
         }
 
-
+        Arrays.sort(userNames);
+        for(int i = 0; i < nameAmount; i++){
+            System.out.println((i+1) + ". " + userNames[i]);
+        }
     }
 }
