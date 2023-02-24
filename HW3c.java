@@ -12,25 +12,25 @@ public class HW3c {
         //If any of the answers are yes, it will print nothing to stop the program
         String answer1 = scan.nextLine().toLowerCase();
         if (answer1.equals("yes")) {
-            System.out.println("");
+            System.out.println("Wi-Fi Connection Solved");
         } else {
             System.out.println("Reboot the router and try to connect.");
             System.out.println("Did that Fix the problem? Yes or No");
             String answer2 = scan.nextLine().toLowerCase();
             if (answer2.equals("yes")) {
-                System.out.println("");
+                System.out.println("Wi-Fi Connection Solved");
             } else {
                 System.out.println("Make sure that the cables between the router and modem are plugged in firmly.");
                 System.out.println("Did that fix the problem? Yes or No");
                 String answer3 = scan.nextLine().toLowerCase();
                 if (answer3.equals("yes")) {
-                    System.out.println("");
+                    System.out.println("Wi-Fi Connection Solved");
                 } else {
                     System.out.println("Move the router to a new location and try to connect.");
                     System.out.println("Did that fix the problem? Yes or No");
                     String answer4 = scan.nextLine().toLowerCase();
                     if (answer4.equals("yes")) {
-                        System.out.println("");
+                        System.out.println("Wi-Fi Connection Solved");
                     } else {
                         System.out.println("Get a new router.");
                     }
