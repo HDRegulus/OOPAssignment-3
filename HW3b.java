@@ -14,14 +14,14 @@ public class HW3b {
         String userNames[] = new String[nameAmount];
 
         //Fills array with user's input names
-        for(;arrayPosition < nameAmount;arrayPosition++){
-            System.out.println("Enter name " + (arrayPosition+1) + ": ");
+        for (; arrayPosition < nameAmount; arrayPosition++) {
+            System.out.println("Enter name " + (arrayPosition + 1) + ": ");
             userNames[arrayPosition] = scan.nextLine();
         }
 
         Arrays.sort(userNames);
-        for(int i = 0; i < nameAmount; i++){
-            System.out.println((i+1) + ". " + userNames[i]);
+        for (int i = 0; i < nameAmount; i++) {
+            System.out.println((i + 1) + ". " + userNames[i]);
         }
     }
 }
